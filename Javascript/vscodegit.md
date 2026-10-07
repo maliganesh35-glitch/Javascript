@@ -1,6 +1,6 @@
 git init
 git add .
-git commit -am "fourth update"
+git commit -am "sixth update"
 git status
 git remote -v
 git push -u origin master
