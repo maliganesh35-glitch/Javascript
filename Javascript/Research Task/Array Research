@@ -1,0 +1,13 @@
+let numbers = [1,2,3,4,5];
+
+console.log(numbers.map(n => n * 4));
+//Transform each element with same length of array
+console.log(numbers.filter(n => n > 2));
+//Select elements that meet condition with same Length or fewer
+
+function greet() {
+    console.log("Hello Ganesh!");
+}
+
+greet();
+greet();
