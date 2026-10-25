@@ -17,3 +17,6 @@
 //both redeclare and reassign is ok
 
 //We 96% will use let only
+let a=10;
+a=20;
+console.log(a);
