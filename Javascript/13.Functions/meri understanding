@@ -1,0 +1,12 @@
+function greetByName(name){
+    console.log("Hi", name);// Hi Sumit
+}
+let name1 = greetByName("Sumit");
+console.log(name1);//undefined
+
+
+function greetByName(name){
+    return "Hi " + name;
+}
+let name2 = greetByName("Sumit");
+console.log(name2);//Hi Sumit
